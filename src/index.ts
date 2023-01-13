@@ -1,5 +1,8 @@
 import './index.css';
 import { MyClass } from './example-unit';
+import { WatchController } from './controllers/watch.controller';
+import { WatchService } from './services/watch.service';
+import { WatchView } from './views/watch.view';
 
-const a = new MyClass(2);
-console.log('number is', a.get());
+
+const app=new WatchController(new WatchService(),new WatchView())
