@@ -1,0 +1,13 @@
+.border {
+  border-style: solid;
+  border-width: 1px;
+  margin: 4px;
+}
+
+.watch-on {
+  color: green;
+}
+
+.watch-off {
+  color: red;
+}
